@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #55ffe5;
+    font-size: 16px;
+    font-style: oblique;
+}
+.main{
+    margin-top: 30px ;
+    margin-left: 75px;
+}
+h1{
+    color: red;
+}
+.input-row:hover{
+     color: red;
+}
+p{
+    color: red;
+}
+.box{
+    display: flex;
+    padding-top: 30px;
+    flex-direction: row;
+}
+.box1{
+    
+    flex-basis: 50%;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.box2{
+    background-color: blue;
+    color: white;
+    flex-basis: 40%;
+    padding-top: 10px;
+    padding-left: 30px;
+} 
+textarea{
+    width: 90%;
+}
+.w{
+    display: flex;
+    justify-content: space-evenly;
+}
+table{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+button{
+    border-radius: 2px
+}
+button:hover{
+    background-color: yellow;
+}
+table:hover{
+    color: red;
+}
+
+
+/*for android phone responsive*/
+@media screen and (320px<=width<=480px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        align-items: center;
+    }
+}
